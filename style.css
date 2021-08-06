@@ -76,7 +76,7 @@ input:focus {
     justify-content: flex-start space-evenly;
     flex-flow: row nowrap;
     font-size: 0.9rem;
-    color: rgb(82, 82, 82);
+    color: rgb(122, 122, 122);
     width: 100%;
     padding-left: 160px;
 
@@ -91,8 +91,19 @@ input:focus {
     padding-left: 50px;
 }
 
-.nav-link:hover {
-    text-decoration: underline;
+.tools {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 50px;
+}
+
+.tools:hover {
+    border: 1px solid rgba(0, 0, 0, 0.267);
+    background-color: rgba(223, 223, 223, 0.253);
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    color: rgb(54, 54, 54);    
 }
 
 .all {
@@ -146,12 +157,17 @@ main {
 .webname {
     font-size: 1.2rem;
     color: rgb(0, 0, 167);
-    padding: 5px 0;
+    margin: 5px 0;
+    line-height: 0.6;
+}
+
+.webname:hover {
+    text-decoration: underline; 
 }
 
 .webcontext {
     font-size: 0.9rem;
-    margin-bottom: 30px;
+    margin: 5px 0 30px;
     width: 550px;
 }
 
@@ -218,11 +234,19 @@ h3 {
     font-size: 0.9rem;
 }
 
+.label:hover {
+    text-decoration: underline;
+}
+
 .seemore {
     width: 250px;
     border: 1px solid rgba(150, 150, 150, 0.555);
     padding: 10px;
     border-radius: 20px;
+}
+
+.seemore:hover {
+    background-color: rgba(172, 172, 172, 0.151);
 }
 
 .spanspace {
@@ -255,11 +279,70 @@ font-weight: bold;
     margin: 5px;
 }
 
+.lefty:hover, .righty:hover{
+    text-decoration: underline;
+}
+
 .pic4 {
     padding: 0 30px;
 }
 
+/* google options */
 
+.googcenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.googbar {
+    width: 200px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    font-weight: 500; 
+    text-align: center;
+}
+
+.googres {
+    font-size: 2rem;
+    letter-spacing: 3px;
+}
+
+.google-o {
+    color: orange;
+  }
+
+ .g {
+     color: blue;
+ } 
+
+ .l {
+     color: green;
+ }
+
+ .oe {
+     color: red;
+ }
+ 
+ .next {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+.num {
+    color: blue;
+}
+
+.num:hover {
+    text-decoration: underline;
+}
+
+ .space {
+  padding: 0 10px;
+ }
 /* footer */
 
 footer {
@@ -286,7 +369,6 @@ footer {
 
 .nav2 {
     display: flex;
-
     font-size: 0.9rem;
     color: rgb(82, 82, 82);
     width: 100%;
@@ -294,9 +376,21 @@ footer {
 
 }
 
+.nav-link-foot {
+    margin: 5px 10px;
+    display: flex;
+    align-items: center;
+    color: rgb(114, 114, 114);
+}
+
+.links:hover, .nav-link-foot:hover {
+    color: rgb(77, 77, 77);
+}
+
+
 .links {
     text-decoration: none;
-    color: rgb(82, 82, 82);
+    color: rgb(114, 114, 114);
 
 }
 

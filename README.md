@@ -8,3 +8,5 @@ Twitch Stream August 03 2021
 - practice grid
 - if building a copy site, use dev tools to figure out how they did and then apply to own website
 
+Twitch Stream August 05 2021
+- Finished placing the website together! 
